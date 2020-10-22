@@ -1,0 +1,87 @@
+@media(max-width: 1000px) {
+    .sidebar-option {
+        font-size: 2.5vw;
+    } 
+    .top-row {
+        font-size: 2vw;
+    }
+    #view-all {
+        font-size: 2vw;
+    }
+    .menu {
+        display: none;
+    }
+
+    .search-input-container {
+        height: 6vw;
+    }
+
+    .icon-container {
+        font-size: 2vw;
+    }
+
+    #staff-picks-header {
+        font-size: 2vw;
+    }
+
+    #feedback {
+        font-size: 1.5vw;
+    }
+
+    #camino {
+        height: 15vw;
+    }
+}
+
+@media(max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+    .top-row {
+        font-size: 3vw;
+    }
+    #view-all {
+        font-size: 3vw;
+    }
+    .menu {
+        display: inline;
+    }
+
+    .title {
+        flex-direction: column-reverse;
+    }
+
+    #header {
+        font-size: 4vw;
+    }
+
+    #logo {
+        width: 25vw;
+    }
+
+    .search-input-container {
+        height: 8vw;
+    }
+
+    .icons {
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .icon-container {
+        width: 100%;
+        font-size: 3vw;
+    }
+
+    #staff-picks-header {
+        font-size: 4vw;
+    }
+
+    #feedback {
+        font-size: 3vw;
+    }
+
+    #camino {
+        height: 20vw;
+    }
+}
