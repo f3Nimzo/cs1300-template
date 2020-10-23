@@ -2,13 +2,135 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Improving Southborough Library's Website</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <div id="container">
+      <h1>How can we redesign a public library website?</h1>
+
+      <img id="website-image" src="assets/southborough.png">
+      <a id="website-link" href="https://www.southboroughlib.org/">https://www.southboroughlib.org/</a>
+
+      <p class="text">Above is the current website for the Southborough Public Library, 
+        a local library not too far from where I live. We can quickly see that it's on the older 
+        side with plenty of scope for improvement. Interested in redesigning it, I first explored 
+        problems with usability and accessibility. 
+      </p>
+
+      <div class="problems">
+        <div class="problems-section">
+          <h2 class="problems-header">Usability Issues</h2>
+          <ul>
+            <li>Searching the catalog, which is one of the most common reasons for vising a library page, is not immediately accessible from the home page. The user
+              has to first click on "Browse our Catalog."
+            </li>
+            <li>The text blocks and links feel very crowded. Clicking through a series of 
+              small links is not very memorizable. 
+            </li>
+            <li>
+              The images used for the resources on the right-hand side are old and grainy
+            </li>
+            <li>
+              There are too many distractions and links everywhere in addition to the main top menu bar 
+            </li>
+            <li>
+              The row of books at the bottom of the screen also seems packed and distracting 
+            </li>
+          </ul>
+        </div>
+        <div class="problems-section">
+          <h2 class="problems-header">Accessibility</h2>
+          <ul>
+            <li>There are several empty links and areas with low contrast between the text and 
+              background colors
+            </li>
+            <li>The screen reader reads through countless small icons which give
+              minimal context to the user, but it is good that all the icons have alternative text
+            </li>
+            <li>
+              The center section is a slideshow, with each slide having a lot of text. The page could
+              change the current slide before the screen reader has finished reading it 
+            </li>
+            <li>
+              There are a few redundant links 
+            </li>
+          </ul>
+
+        
+
+        </div>
+      </div>
+
+      <p class="text">With these problems in mind, I started designing a new library website that 
+        strove to be simpler in how it presented information to the user. I came up with the following 
+        low-fi designs for desktop, tablet, and mobile.
+      </p>
+
+      <div class="low-fi">
+        <h2>Desktop</h2>
+        <img class="lofi-image" src="assets/desktop.png" alt="Desktop Lofi Design">
+
+        <h2>Tablet</h2>
+        <img class="lofi-image" src="assets/tablet.png" alt="Tablet Lofi Design">
+
+        <h2>Mobile</h2>
+        <img class="lofi-image" src="assets/mobile.png" alt="Mobile Lofi Design">
+      </div>
+
+      <p class="text">These then led to the following corresponding high-fi designs.</p>
+      
+      <div class="low-fi">
+        <h2>Desktop</h2>
+        <img class="lofi-image" src="assets/highfi-desktop.png" alt="Desktop High-fi Design">
+      </div>
+
+      <div class="low-fi">
+        <h2>Tablet</h2>
+        <img class="lofi-image" src="assets/highfi-tablet.png" alt="Tablet High-fi Design">
+      </div>
+
+      <div class="low-fi">
+        <h2>Mobile</h2>
+        <img class="lofi-image" src="assets/highfi-mobile.png" alt="Mobile High-fi Design">
+      </div>
+
+      <p class="text">For the finished product, I came up with the following visual study guide:</p>
+      <div class="low-fi">
+        <h2>Visual Study Guide</h2>
+        <img class="lofi-image" src="assets/visual-final.png" alt="Visual Study Guide">
+      </div>
+
+      <p class="text">Finally, I coded the redesigned website!</p>
+      <a id="redesigned-url" href="southborough-library-v2.html">Redesigned Southborough Library Website</a>
+      <p class="text">Here are a few screenshots of different screen sizes:</p>
+
+      <div class="low-fi">
+        <h2>Desktop</h2>
+        <img class="lofi-image" src="assets/final-desktop.png" alt="Redesigned Desktop Image">
+      </div>
+      <div class="low-fi">
+        <h2>Tablet</h2>
+        <img id="final-tablet" class="lofi-image" src="assets/final-tablet.png" alt="Redesigned Tablet Image">
+      </div>
+      <div class="low-fi">
+        <h2>Mobile</h2>
+        <img id="final-mobile" class="lofi-image" src="assets/final-mobile.png" alt="Redesigned Mobile Image">
+      </div>
+
+      <p class="text">The new design successfully responds to different computer screens and 
+        mobile devices. It uses a fewer number of and higher resolution images, and as a result 
+        the screen reader needs to go through much less alternative text. </p>
+        
+      <p class="text">Compared to the original 
+        website, the user needs to go through much less visual and accessible input in order to 
+        understand the page. Most importantly, they can immediately find common information they are 
+        looking for, such as when the library is open, if a certain book or online resource is available, or 
+        if they want to reach out to the library directly.
+      </p>
+    </div>
   </body>
 </html>

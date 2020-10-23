@@ -1,4 +1,12 @@
 @media(max-width: 1000px) {
+    .page-container {
+        height: 100%;
+    }
+
+    .sidebar {
+        height: unset;
+    }
+
     .sidebar-option {
         font-size: 2.5vw;
     } 
@@ -20,12 +28,22 @@
         font-size: 2vw;
     }
 
-    #staff-picks-header {
+    .icons {
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .icon-container {
+        width: 100%;
         font-size: 2vw;
     }
 
+    #staff-picks-header {
+        font-size: 2.5vw;
+    }
+
     #feedback {
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 
     #camino {

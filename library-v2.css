@@ -10,6 +10,15 @@ body {
     width: 100%;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .page-container {
     margin: 0;
     padding: 0;
@@ -32,6 +41,10 @@ body {
     color: white;
     padding: 1vw;
     font-size: 1.5vw;
+}
+
+.sidebar-option:hover {
+    background-color: #C8D7EA;
 }
 
 .menu {
@@ -105,11 +118,19 @@ body {
     width: 40vw;
 }
 
+input:focus {
+    border: 5px solid #C8D7EA;
+}
+
 #search-button {
     background-color: #4B6FB9;
     font-size: 1.5vw;
     display: flex;
     align-items: center;
+}
+
+#search-button:hover {
+    background-color: #C8D7EA;
 }
 
 .icon {
@@ -135,28 +156,37 @@ body {
     font-size: 1.3vw;
 }
 
+.icon-container:hover {
+    border: 1px solid #C8D7EA;
+}
+
+.icon-description:hover {
+    color: #C8D7EA;
+}
+
 .staff-picks {
-    padding-top: 0.5vw;
     background-color: #C8D7EA;
     display: flex;
     flex: 1;
     flex-direction: column;
     align-items: center;  
+    justify-content: center;
 }
 
 #staff-picks-header {
-    font-size: 1.5vw;
-    padding-bottom: 2vw;
+    font-size: 2vw;
+    padding-bottom: 1vw;
 }
 
 .carousel {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 #feedback {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 #camino {
