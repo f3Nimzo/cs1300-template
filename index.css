@@ -35,6 +35,8 @@ h1 {
 #website-link {
     align-self: center;
     padding-bottom: 3%;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .text {
@@ -88,10 +90,19 @@ h2 {
     text-decoration: none;
 }
 
+#final-desktop {
+    border: 1px solid black;
+    padding: 1%;
+}
+
 #final-tablet {
     width: 50%;
+    border: 1px solid black;
+    padding: 1%;
 }
 
 #final-mobile {
     width: 30%;
+    border: 1px solid black;
+    padding: 1%;
 }
